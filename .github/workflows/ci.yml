@@ -21,7 +21,7 @@ jobs:
         run: npm install
 
       - name: Run Tests
-        run: echo "No tests yet"
+        run: npm test
 
       - name: Build Step
         run: echo "Build successful"
